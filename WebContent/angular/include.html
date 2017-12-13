@@ -1,8 +1,8 @@
 <html>
 <head>
-<title>Angular JS Includes 示例</title>
+<title>Angular JS Includes 绀轰緥</title>
 <script src="../angularjs/js/angular.min.js"></script>
-<script src="../angularjs/js/angular-route.min.js"></script
+<script src="../angularjs/js/angular-route.min.js"></script>
 <style>
 table, th , td {
    border: 1px solid grey;
@@ -18,7 +18,7 @@ table tr:nth-child(even) {
 </style>
 </head>
 <body>
-<h2>AngularJS Include示例</h2>
+<h2>AngularJS Include绀轰緥</h2>
 <div ng-app="mainApp" ng-controller="studentController">
 <div ng-include="'main.html'"></div>
 <div ng-include="'subjects.html'"></div>
@@ -28,14 +28,14 @@ var mainApp = angular.module("mainApp", []);
 
 mainApp.controller('studentController', function($scope) {
    $scope.student = {
-      firstName: "周",
-      lastName: "杰伦",
+      firstName: "鍛�",
+      lastName: "鏉颁鸡",
       fees:500,
       subjects:[
-         {name:'物理',marks:78},
-         {name:'化学',marks:82},
-         {name:'语文',marks:68},
-         {name:'外语',marks:79},
+         {name:'鐗╃悊',marks:78},
+         {name:'鍖栧',marks:82},
+         {name:'璇枃',marks:68},
+         {name:'澶栬',marks:79},
           {name:'Java',marks:87}
       ],
       fullName: function() {
